@@ -1,0 +1,24 @@
+{
+  "name": "terceraapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_OPTIONS=--experimental-vm-modules && jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-mock-extended": "^2.0.4",
+    "nodemon": "^3.1.0",
+    "prisma": "^5.12.1",
+    "supertest": "^6.3.4"
+  }
+}
